@@ -1,0 +1,586 @@
+SAMPLE_ID	PATIENT_ID	AGE	GENDER	OS_STATUS	OS_MONTHS	DFS_STATUS	DFS_MONTHS	THERAPY_CLASS	EXPRESSION_SUBTYPE	MGMT_STATUS	2012_METHYLATION_CLASS	G-CIMP_METHYLATION	IDH1_STATUS	ONCOTREE_CODE	Treatment
+TCGA-02-0001	TCGA-02-0001	44.3	FEMALE	DECEASED	11.6	Recurred/Progressed 	4.5	Standard Radiation	Classical	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0003	TCGA-02-0003	50.2	MALE	DECEASED	4.7	Recurred/Progressed 	1.3	Standard Radiation	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0004	TCGA-02-0004	59.2	MALE	DECEASED	11.3	Recurred/Progressed 	10.3	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0006	TCGA-02-0006	56.2	FEMALE	DECEASED	18.3	Recurred/Progressed 	9.9	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0007	TCGA-02-0007	40.5	FEMALE	DECEASED	23.2	Recurred/Progressed 	17	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0009	TCGA-02-0009	61.5	FEMALE	DECEASED	10.6	Recurred/Progressed 	8.7	Nonstandard Radiation	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0010	TCGA-02-0010	20.4	FEMALE	DECEASED	35.4	Recurred/Progressed 	11.5	Standard Radiation, TMZ Chemo	G-CIMP	UNMETHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-0011	TCGA-02-0011	19	FEMALE	DECEASED	20.7	Recurred/Progressed 	4.7	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0014	TCGA-02-0014	25.6	MALE	DECEASED	82.6	Recurred/Progressed 	73.8	Alkylating Chemoradiation, TMZ Chemo	G-CIMP	UNMETHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-0015	TCGA-02-0015	50.4	MALE	DECEASED	20.6	Recurred/Progressed 	15	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0016	TCGA-02-0016	50	MALE	LIVING	55.9	Recurred/Progressed 	55.9	Standard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0021	TCGA-02-0021	43.9	FEMALE	DECEASED	77.6	Recurred/Progressed 	8.4	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0023	TCGA-02-0023	38.3	FEMALE	DECEASED	20.1	Recurred/Progressed 	14.3	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0024	TCGA-02-0024	35.9	MALE	DECEASED	53.1	Recurred/Progressed 	46	Standard Radiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0025	TCGA-02-0025	47.6	MALE	DECEASED	42.7	Recurred/Progressed 	21.6	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0026	TCGA-02-0026	27.4	MALE	DECEASED	24.6	Recurred/Progressed 	15.2	Standard Radiation, TMZ Chemo	G-CIMP	NA	NA	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-0027	TCGA-02-0027	33.9	FEMALE	DECEASED	12.2	Recurred/Progressed 	8.5	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0028	TCGA-02-0028	39.2	MALE	DECEASED	90.6	Recurred/Progressed 	63.2	Standard Radiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-0033	TCGA-02-0033	55	MALE	DECEASED	2.8	Recurred/Progressed 	1.1	Standard Radiation	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0034	TCGA-02-0034	60.7	MALE	DECEASED	14.1	Recurred/Progressed 	12.7	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0037	TCGA-02-0037	74.1	FEMALE	DECEASED	3.6	Recurred/Progressed 	1.2	Standard Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0038	TCGA-02-0038	48.6	FEMALE	DECEASED	10.7	Recurred/Progressed 	7.8	Standard Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0039	TCGA-02-0039	54.9	MALE	DECEASED	10.5	Recurred/Progressed 	3.4	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0043	TCGA-02-0043	54.4	FEMALE	DECEASED	18.3	Recurred/Progressed 	9.3	Standard Radiation, Alkylating Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0046	TCGA-02-0046	61.4	MALE	DECEASED	6.8	Recurred/Progressed 	6.4	Standard Radiation	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0047	TCGA-02-0047	78.7	MALE	DECEASED	14.7	Recurred/Progressed 	1.9	Standard Radiation	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0048	TCGA-02-0048	80.2	MALE	DECEASED	3.2	Recurred/Progressed 	0.8	Unspecified Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0051	TCGA-02-0051	43.8	MALE	DECEASED	15.1	Recurred/Progressed 	2.9	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0052	TCGA-02-0052	49.5	MALE	DECEASED	12.6	Recurred/Progressed 	6.7	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0054	TCGA-02-0054	44.4	FEMALE	DECEASED	6.5	Recurred/Progressed 	2.4	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0055	TCGA-02-0055	62.4	FEMALE	DECEASED	2.5	Recurred/Progressed 	0.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0057	TCGA-02-0057	66.1	FEMALE	DECEASED	19.9	Recurred/Progressed 	15.6	Alkylating Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0058	TCGA-02-0058	28.8	FEMALE	DECEASED	8.4	Recurred/Progressed 	5.6	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-0059	TCGA-02-0059	68.7	MALE	DECEASED	9.6	Recurred/Progressed 	0.7	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0060	TCGA-02-0060	66.1	FEMALE	DECEASED	6	Recurred/Progressed 	6	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0064	TCGA-02-0064	50	MALE	DECEASED	19.7	Recurred/Progressed 	16.3	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0068	TCGA-02-0068	57.9	MALE	DECEASED	26.4	Recurred/Progressed 	5.8	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	NA	WT	GBM	Chemo/Radio
+TCGA-02-0069	TCGA-02-0069	31.9	FEMALE	LIVING	28.7	Recurred/Progressed 	28.7	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0070	TCGA-02-0070	71	MALE	LIVING	25.1	Recurred/Progressed 	25.1	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0071	TCGA-02-0071	53.2	MALE	DECEASED	5.5	Recurred/Progressed 	0.3	Unspecified Radiation	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-02-0074	TCGA-02-0074	68.2	FEMALE	DECEASED	10.2	Recurred/Progressed 	5.1	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0075	TCGA-02-0075	63.5	MALE	DECEASED	20.8	Recurred/Progressed 	11	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0079	TCGA-02-0079	58	MALE	DECEASED	27.2	Recurred/Progressed 	26.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0080	TCGA-02-0080	28.2	MALE	DECEASED	89.7	Recurred/Progressed 	76.9	Standard Radiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-0083	TCGA-02-0083	59.2	FEMALE	DECEASED	22.7	Recurred/Progressed 	15.2	Standard Radiation, TMZ Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0084	TCGA-02-0084	36.3	FEMALE	DECEASED	12.6	DiseaseFree	12.6	Unspecified Therapy	G-CIMP	NA	NA	G-CIMP	WT	GBM	NA
+TCGA-02-0085	TCGA-02-0085	63.8	FEMALE	DECEASED	51.3	Recurred/Progressed 	32.1	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0086	TCGA-02-0086	45.9	FEMALE	DECEASED	8.8	Recurred/Progressed 	3.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0087	TCGA-02-0087	27.9	FEMALE	LIVING	57.8	Recurred/Progressed 	57.8	Standard Radiation	G-CIMP	NA	NA	G-CIMP	NA	GBM	Radio
+TCGA-02-0089	TCGA-02-0089	52.7	MALE	DECEASED	16.9	Recurred/Progressed 	11.8	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0099	TCGA-02-0099	46.8	MALE	DECEASED	3.5	DiseaseFree	3.5	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0102	TCGA-02-0102	42.9	MALE	DECEASED	27	Recurred/Progressed 	14.8	Standard Radiation, Alkylating Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0104	TCGA-02-0104	29.3	FEMALE	DECEASED	65	Recurred/Progressed 	47.9	TMZ Chemoradiation, TMZ Chemo	G-CIMP	NA	NA	G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0106	TCGA-02-0106	54.4	MALE	DECEASED	11.7	Recurred/Progressed 	6.4	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0107	TCGA-02-0107	56.3	MALE	DECEASED	17.7	Recurred/Progressed 	4.8	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0111	TCGA-02-0111	57	MALE	DECEASED	23.2	Recurred/Progressed 	2.4	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0113	TCGA-02-0113	43.4	FEMALE	LIVING	92.6	Recurred/Progressed 	51.3	Standard Radiation, TMZ Chemo	Neural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0114	TCGA-02-0114	37.5	FEMALE	DECEASED	100	Recurred/Progressed 	75.5	Standard Radiation, Alkylating Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0115	TCGA-02-0115	52.7	MALE	DECEASED	15.7	Recurred/Progressed 	3	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0116	TCGA-02-0116	51.1	MALE	DECEASED	49	Recurred/Progressed 	40.5	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-0258	TCGA-02-0258	36.3	FEMALE	DECEASED	16.5	Recurred/Progressed 	16.5	Alkylating Chemoradiation, Alkylating Chemo	G-CIMP	NA	NA	G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0260	TCGA-02-0260	54.6	MALE	DECEASED	16.9	DiseaseFree	16.9	Standard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0266	TCGA-02-0266	14.5	MALE	DECEASED	17.7	Recurred/Progressed 	9.6	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0269	TCGA-02-0269	69	MALE	DECEASED	10.8	Recurred/Progressed 	3.3	Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo
+TCGA-02-0271	TCGA-02-0271	26.2	MALE	DECEASED	14.5	DiseaseFree	0	Unspecified Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0281	TCGA-02-0281	78.6	FEMALE	DECEASED	4	DiseaseFree	0	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0285	TCGA-02-0285	50.2	FEMALE	DECEASED	13.9	DiseaseFree	0	Standard Radiation	Classical	NA	NA	NA	NA	GBM	Radio
+TCGA-02-0289	TCGA-02-0289	57.6	MALE	DECEASED	14.2	Recurred/Progressed 	8	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0290	TCGA-02-0290	49.5	MALE	DECEASED	15.9	Recurred/Progressed 	12.3	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0317	TCGA-02-0317	40.1	MALE	DECEASED	12.2	Recurred/Progressed 	7.8	Nonstandard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0321	TCGA-02-0321	74.3	MALE	DECEASED	9.9	Recurred/Progressed 	2.4	Standard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0324	TCGA-02-0324	69.4	FEMALE	DECEASED	7.7	Recurred/Progressed 	5.4	Standard Radiation	Neural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0325	TCGA-02-0325	61.9	MALE	DECEASED	10.6	Recurred/Progressed 	9.3	Standard Radiation, Alkylating Chemo	Proneural	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0326	TCGA-02-0326	82.6	FEMALE	DECEASED	7.3	Recurred/Progressed 	0.2	Nonstandard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0330	TCGA-02-0330	51.1	FEMALE	DECEASED	15.9	Recurred/Progressed 	3.9	Standard Radiation, Alkylating Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0332	TCGA-02-0332	46.6	FEMALE	DECEASED	25.7	Recurred/Progressed 	14.4	Standard Radiation, Alkylating Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0333	TCGA-02-0333	77.9	FEMALE	DECEASED	4.4	Recurred/Progressed 	0.1	Nonstandard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0337	TCGA-02-0337	48.3	MALE	DECEASED	25.1	Recurred/Progressed 	22.7	Standard Radiation, Alkylating Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0338	TCGA-02-0338	41.7	MALE	DECEASED	10.6	Recurred/Progressed 	5.5	Standard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0339	TCGA-02-0339	67.1	MALE	DECEASED	12.4	Recurred/Progressed 	4.9	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0422	TCGA-02-0422	50.3	MALE	DECEASED	14.5	Recurred/Progressed 	4.1	Nonstandard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0430	TCGA-02-0430	67.5	FEMALE	DECEASED	10.6	DiseaseFree	10.6	Standard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0432	TCGA-02-0432	36.3	MALE	DECEASED	47.1	Recurred/Progressed 	34.6	Standard Radiation, Alkylating Chemo	G-CIMP	NA	NA	G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0439	TCGA-02-0439	70.2	FEMALE	DECEASED	0.7	Recurred/Progressed 	0.4	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0440	TCGA-02-0440	62.9	MALE	DECEASED	11.3	Recurred/Progressed 	7	Standard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0446	TCGA-02-0446	61.7	MALE	DECEASED	9.2	Recurred/Progressed 	0.5	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-0451	TCGA-02-0451	62	FEMALE	DECEASED	16.2	Recurred/Progressed 	14	Nonstandard Radiation, Alkylating Chemo	Neural	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-02-0456	TCGA-02-0456	67.9	FEMALE	DECEASED	3.4	Recurred/Progressed 	0.4	Nonstandard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-02-2466	TCGA-02-2466	61.5	MALE	DECEASED	16.8	Recurred/Progressed 	4.2	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-2470	TCGA-02-2470	57.5	MALE	DECEASED	12.9	Recurred/Progressed 	6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-2483	TCGA-02-2483	43.7	MALE	LIVING	15.3	DiseaseFree	15.3	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-02-2485	TCGA-02-2485	53.4	MALE	LIVING	15.4	Recurred/Progressed 	6.1	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-02-2486	TCGA-02-2486	64	MALE	LIVING	16.2	DiseaseFree	16.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0122	TCGA-06-0122	84.8	FEMALE	DECEASED	6.1	DiseaseFree	6.1	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0124	TCGA-06-0124	67.3	MALE	DECEASED	20.4	DiseaseFree	20.4	Unspecified Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0125	TCGA-06-0125	63.9	FEMALE	DECEASED	47.6	Recurred/Progressed 	26.2	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0126	TCGA-06-0126	86.6	MALE	DECEASED	6.9	DiseaseFree	6.9	Unspecified Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0127	TCGA-06-0127	67.1	MALE	DECEASED	3.9	Recurred/Progressed 	3	Standard Radiation	Classical	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0128	TCGA-06-0128	66.3	MALE	DECEASED	22.7	Recurred/Progressed 	6.2	Standard Radiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-06-0129	TCGA-06-0129	30.9	MALE	DECEASED	33.7	Recurred/Progressed 	4.8	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-06-0130	TCGA-06-0130	54.2	MALE	DECEASED	13	Recurred/Progressed 	8	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0132	TCGA-06-0132	49.6	MALE	DECEASED	25.4	Recurred/Progressed 	15.9	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0133	TCGA-06-0133	64.1	MALE	DECEASED	14.3	Recurred/Progressed 	2.6	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0137	TCGA-06-0137	63.7	FEMALE	DECEASED	26.7	Recurred/Progressed 	16	Standard Radiation, Alkylating Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0138	TCGA-06-0138	43.1	MALE	DECEASED	24.2	Recurred/Progressed 	13	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0139	TCGA-06-0139	40.3	MALE	DECEASED	11.9	Recurred/Progressed 	5	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0141	TCGA-06-0141	62.8	MALE	DECEASED	10.3	Recurred/Progressed 	4.8	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0143	TCGA-06-0143	58.5	MALE	DECEASED	11.7	Recurred/Progressed 	8.7	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0145	TCGA-06-0145	53.8	FEMALE	DECEASED	2.3	DiseaseFree	2.3	Unspecified Radiation	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0146	TCGA-06-0146	33.5	FEMALE	DECEASED	20.1	Recurred/Progressed 	17.4	Alkylating Chemoradiation, Alkylating Chemo	G-CIMP	NA	NA	G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0147	TCGA-06-0147	51.3	FEMALE	DECEASED	17.8	DiseaseFree	17.8	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0148	TCGA-06-0148	76.2	MALE	DECEASED	10.1	Recurred/Progressed 	6.2	Standard Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0149	TCGA-06-0149	74.8	FEMALE	DECEASED	8.6	Recurred/Progressed 	6.7	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0152	TCGA-06-0152	68	MALE	DECEASED	12.3	Recurred/Progressed 	9.8	Nonstandard Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0154	TCGA-06-0154	54.8	MALE	DECEASED	13.9	Recurred/Progressed 	6.8	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0155	TCGA-06-0155	61.6	MALE	DECEASED	10.5	Recurred/Progressed 	8.4	Standard Radiation, Alkylating Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0156	TCGA-06-0156	57.3	MALE	DECEASED	5.9	DiseaseFree	5.9	Standard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0157	TCGA-06-0157	63.3	FEMALE	DECEASED	3.2	DiseaseFree	3.2	Standard Radiation	Classical	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0158	TCGA-06-0158	73.5	MALE	DECEASED	10.8	Recurred/Progressed 	3	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0162	TCGA-06-0162	47.3	FEMALE	DECEASED	3.4	DiseaseFree	3.4	Nonstandard Radiation	Neural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0164	TCGA-06-0164	47.9	MALE	DECEASED	56.9	Recurred/Progressed 	47	Standard Radiation, Alkylating Chemo	Mesenchymal	NA	NA	NA	NA	GBM	Chemo/Radio
+TCGA-06-0166	TCGA-06-0166	51.8	MALE	DECEASED	5.9	Recurred/Progressed 	2.2	Standard Radiation, Alkylating Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0168	TCGA-06-0168	59.6	FEMALE	DECEASED	19.7	Recurred/Progressed 	15.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0169	TCGA-06-0169	68.8	MALE	DECEASED	3.3	Recurred/Progressed 	3	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0171	TCGA-06-0171	65.9	MALE	DECEASED	13.1	Recurred/Progressed 	3.8	Nonstandard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0173	TCGA-06-0173	72.7	FEMALE	DECEASED	4.5	DiseaseFree	4.5	Unspecified Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0174	TCGA-06-0174	54.3	MALE	DECEASED	3.2	Recurred/Progressed 	1.5	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0175	TCGA-06-0175	70	MALE	DECEASED	4	Recurred/Progressed 	1.3	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0176	TCGA-06-0176	35	MALE	LIVING	51.3	Recurred/Progressed 	1.3	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0177	TCGA-06-0177	64.3	MALE	DECEASED	4.1	DiseaseFree	4.1	Unspecified Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0178	TCGA-06-0178	39	MALE	LIVING	54	Recurred/Progressed 	6.3	TMZ Chemoradiation, TMZ Chemo	Neural	NA	NA	NA	WT	GBM	Chemo/Radio
+TCGA-06-0179	TCGA-06-0179	64.2	MALE	DECEASED	20.3	Recurred/Progressed 	8.2	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0182	TCGA-06-0182	76.6	MALE	DECEASED	3.7	DiseaseFree	3.7	Unspecified Radiation	Neural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0184	TCGA-06-0184	63.8	MALE	LIVING	40.4	DiseaseFree	40.4	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0185	TCGA-06-0185	54.5	MALE	LIVING	37	Recurred/Progressed 	23.4	TMZ Chemoradiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0187	TCGA-06-0187	69.3	MALE	DECEASED	27.2	Recurred/Progressed 	17.5	Standard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0188	TCGA-06-0188	71.4	MALE	LIVING	28.5	DiseaseFree	28.5	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0189	TCGA-06-0189	55.6	MALE	DECEASED	15.4	DiseaseFree	15.4	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0190	TCGA-06-0190	62.5	MALE	DECEASED	10.4	Recurred/Progressed 	2.9	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0192	TCGA-06-0192	58.2	MALE	LIVING	18.3	DiseaseFree	18.3	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0194	TCGA-06-0194	37.9	FEMALE	DECEASED	4.7	Recurred/Progressed 	4.1	Unspecified Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0195	TCGA-06-0195	63.3	MALE	DECEASED	7.4	Recurred/Progressed 	4.8	Nonstandard Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0197	TCGA-06-0197	66	FEMALE	DECEASED	5.5	Recurred/Progressed 	1.5	Unspecified Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0201	TCGA-06-0201	51.1	FEMALE	DECEASED	0.4	DiseaseFree	0.4	Unspecified Radiation	Mesenchymal	NA	NA	NA	WT	GBM	Radio
+TCGA-06-0206	TCGA-06-0206	40.9	MALE	DECEASED	7.6	Recurred/Progressed 	3.5	Unspecified Radiation, Alkylating Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0208	TCGA-06-0208	52.3	FEMALE	DECEASED	8.4	Recurred/Progressed 	4.9	Nonstandard Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0209	TCGA-06-0209	76.3	MALE	DECEASED	7.6	DiseaseFree	7.6	Standard Radiation	NA	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0210	TCGA-06-0210	72.8	FEMALE	DECEASED	7.4	Recurred/Progressed 	2.2	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0211	TCGA-06-0211	48	MALE	DECEASED	11.8	Recurred/Progressed 	1.7	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0213	TCGA-06-0213	55.1	FEMALE	DECEASED	0.5	DiseaseFree	0.5	Unspecified Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0214	TCGA-06-0214	66.2	MALE	DECEASED	15	Recurred/Progressed 	1.6	Standard Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0216	TCGA-06-0216	61.7	FEMALE	DECEASED	24.2	Recurred/Progressed 	5.8	Standard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0219	TCGA-06-0219	67	MALE	DECEASED	0.7	DiseaseFree	0.7	Unspecified Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0221	TCGA-06-0221	31	MALE	DECEASED	19.8	Recurred/Progressed 	8.5	Standard Radiation	Neural	NA	NA	G-CIMP	R132G	GBM	Radio
+TCGA-06-0237	TCGA-06-0237	75.9	FEMALE	DECEASED	13.6	DiseaseFree	13.6	TMZ Chemoradiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0238	TCGA-06-0238	46.6	MALE	DECEASED	13.3	Recurred/Progressed 	10.2	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0241	TCGA-06-0241	66	FEMALE	LIVING	15	Recurred/Progressed 	6.4	Standard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0394	TCGA-06-0394	51.8	MALE	DECEASED	10.8	Recurred/Progressed 	2.9	Nonstandard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0397	TCGA-06-0397	57.5	FEMALE	DECEASED	4	DiseaseFree	4	Nonstandard Radiation, Alkylating Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0402	TCGA-06-0402	71.3	MALE	DECEASED	0.3	DiseaseFree	0.3	Unspecified Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0409	TCGA-06-0409	43.9	MALE	DECEASED	72.4	Recurred/Progressed 	11	Standard Radiation, Alkylating Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0410	TCGA-06-0410	76.9	FEMALE	DECEASED	4.7	DiseaseFree	4.7	Unspecified Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0412	TCGA-06-0412	56.5	FEMALE	DECEASED	9.6	Recurred/Progressed 	4.3	Nonstandard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0413	TCGA-06-0413	77.8	FEMALE	DECEASED	3.2	DiseaseFree	3.2	Unspecified Radiation	Proneural	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-06-0414	TCGA-06-0414	63.6	MALE	DECEASED	35.1	Recurred/Progressed 	33.3	Nonstandard Radiation, Alkylating Chemo	Proneural	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-0644	TCGA-06-0644	71.9	MALE	LIVING	12.3	Recurred/Progressed 	2.8	Standard Radiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0645	TCGA-06-0645	56	FEMALE	DECEASED	5.8	DiseaseFree	5.8	Unspecified Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0646	TCGA-06-0646	61	MALE	DECEASED	5.8	Recurred/Progressed 	3	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0648	TCGA-06-0648	78	MALE	DECEASED	9.8	Recurred/Progressed 	6.6	Standard Radiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0649	TCGA-06-0649	73.4	FEMALE	DECEASED	2.1	DiseaseFree	2.1	Unspecified Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0650	TCGA-06-0650	39.9	FEMALE	DECEASED	23.6	Recurred/Progressed 	11.5	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0686	TCGA-06-0686	53.4	MALE	LIVING	9.4	Recurred/Progressed 	5.2	Standard Radiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0743	TCGA-06-0743	69.6	MALE	LIVING	22.3	Recurred/Progressed 	5.8	Standard Radiation	Classical	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0744	TCGA-06-0744	67	MALE	LIVING	19.5	DiseaseFree	19.5	Standard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0745	TCGA-06-0745	59.9	MALE	DECEASED	7.8	Recurred/Progressed 	3	Standard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0747	TCGA-06-0747	53.8	FEMALE	DECEASED	2.7	DiseaseFree	2.7	Standard Radiation	Classical	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0749	TCGA-06-0749	50.8	MALE	DECEASED	2.7	DiseaseFree	2.7	Nonstandard Radiation	Neural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0750	TCGA-06-0750	43.9	MALE	DECEASED	0.9	DiseaseFree	0.9	Unspecified Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0875	TCGA-06-0875	61.1	FEMALE	LIVING	9.2	Recurred/Progressed 	9.2	Standard Radiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0876	TCGA-06-0876	72.2	FEMALE	LIVING	8.9	DiseaseFree	8.9	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0877	TCGA-06-0877	78.7	MALE	LIVING	6.7	DiseaseFree	6.7	Nonstandard Radiation	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-06-0878	TCGA-06-0878	74.8	MALE	LIVING	7.2	Recurred/Progressed 	2.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0879	TCGA-06-0879	52.4	MALE	LIVING	23	Recurred/Progressed 	23	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0881	TCGA-06-0881	50	MALE	LIVING	5.9	Recurred/Progressed 	4.6	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0882	TCGA-06-0882	30.4	MALE	LIVING	5.4	DiseaseFree	5.4	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-0939	TCGA-06-0939	79.1	FEMALE	LIVING	20.9	Recurred/Progressed 	10.8	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-1084	TCGA-06-1084	54.5	MALE	LIVING	7.4	Recurred/Progressed 	6.8	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-1086	TCGA-06-1086	42.8	MALE	DECEASED	6.8	DiseaseFree	6.8	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-1087	TCGA-06-1087	75.7	MALE	DECEASED	4	Recurred/Progressed 	3.6	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-1800	TCGA-06-1800	61.1	MALE	DECEASED	26.8	Recurred/Progressed 	24.7	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-1801	TCGA-06-1801	56.2	FEMALE	LIVING	8.6	Recurred/Progressed 	7.6	Standard Radiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-1802	TCGA-06-1802	61.7	MALE	LIVING	7.9	Recurred/Progressed 	2.7	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-1804	TCGA-06-1804	81.6	FEMALE	DECEASED	13.6	DiseaseFree	13.6	Unspecified Therapy	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	NA
+TCGA-06-1805	TCGA-06-1805	28.9	FEMALE	LIVING	4.2	DiseaseFree	4.2	TMZ Chemoradiation, TMZ Chemo	G-CIMP	UNMETHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-06-2557	TCGA-06-2557	76.6	MALE	DECEASED	1.1	DiseaseFree	1.1	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-06-2558	TCGA-06-2558	75.3	FEMALE	DECEASED	12.5	DiseaseFree	12.5	Standard Radiation	Proneural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-06-2559	TCGA-06-2559	83.7	MALE	DECEASED	4.9	DiseaseFree	4.9	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2561	TCGA-06-2561	53.4	FEMALE	LIVING	9.3	Recurred/Progressed 	2.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2562	TCGA-06-2562	81.5	MALE	LIVING	2.8	Recurred/Progressed 	2.8	Nonstandard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2563	TCGA-06-2563	72.9	FEMALE	LIVING	8.5	DiseaseFree	8.5	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2564	TCGA-06-2564	50.5	MALE	LIVING	6	DiseaseFree	6	Nonstandard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2565	TCGA-06-2565	59	MALE	LIVING	6.8	Recurred/Progressed 	5.9	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2566	TCGA-06-2566	23.1	FEMALE	DECEASED	6	DiseaseFree	6	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2567	TCGA-06-2567	65	MALE	DECEASED	4.4	DiseaseFree	4.4	Nonstandard Radiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-2569	TCGA-06-2569	24.4	FEMALE	LIVING	0.4	DiseaseFree	0.4	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-06-2570	TCGA-06-2570	21.7	FEMALE	LIVING	9.4	DiseaseFree	9.4	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-06-5408	TCGA-06-5408	54.9	FEMALE	DECEASED	11.7	Recurred/Progressed 	5.2	Standard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5410	TCGA-06-5410	72.3	FEMALE	DECEASED	3.5	DiseaseFree	3.5	Unspecified Radiation	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-06-5411	TCGA-06-5411	51.6	MALE	DECEASED	8.4	Recurred/Progressed 	7	Standard Radiation, TMZ Chemo	Neural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5412	TCGA-06-5412	78.8	FEMALE	DECEASED	4.5	Recurred/Progressed 	2.9	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5413	TCGA-06-5413	67	MALE	LIVING	8.8	Recurred/Progressed 	6.4	Standard Radiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5414	TCGA-06-5414	61.7	MALE	LIVING	9	Recurred/Progressed 	5.5	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5415	TCGA-06-5415	60.8	MALE	LIVING	8.5	DiseaseFree	8.5	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5416	TCGA-06-5416	23.4	FEMALE	LIVING	6.7	DiseaseFree	6.7	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-06-5417	TCGA-06-5417	45.4	FEMALE	LIVING	5.1	DiseaseFree	5.1	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-06-5418	TCGA-06-5418	75.5	FEMALE	DECEASED	2.7	DiseaseFree	2.7	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-06-5856	TCGA-06-5856	58.1	MALE	DECEASED	3.7	DiseaseFree	3.7	Unspecified Radiation	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-06-5858	TCGA-06-5858	45.6	FEMALE	LIVING	6.1	Recurred/Progressed 	3.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-5859	TCGA-06-5859	63.5	MALE	LIVING	4.5	DiseaseFree	4.5	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-6388	TCGA-06-6388	64.4	FEMALE	DECEASED	5.2	Recurred/Progressed 	2.8	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-6389	TCGA-06-6389	50	FEMALE	LIVING	7.8	DiseaseFree	7.8	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-06-6390	TCGA-06-6390	58.4	MALE	DECEASED	5.4	DiseaseFree	5.4	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-6391	TCGA-06-6391	44.4	FEMALE	DECEASED	1.4	DiseaseFree	1.4	Unspecified Radiation	Proneural	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-06-6695	TCGA-06-6695	64.1	MALE	LIVING	8.3	Recurred/Progressed 	4.3	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-6698	TCGA-06-6698	53.6	FEMALE	LIVING	4.8	DiseaseFree	4.8	Nonstandard Radiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-6700	TCGA-06-6700	76.2	MALE	LIVING	4.8	DiseaseFree	4.8	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-06-6701	TCGA-06-6701	60.4	MALE	LIVING	5	DiseaseFree	5	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-08-0244	TCGA-08-0244	62.1	MALE	DECEASED	22.7	Recurred/Progressed 	15.9	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0245	TCGA-08-0245	31.8	FEMALE	DECEASED	37.8	Recurred/Progressed 	15.2	Standard Radiation, TMZ Chemo	Proneural	NA	NA	NA	WT	GBM	Chemo/Radio
+TCGA-08-0246	TCGA-08-0246	57.4	FEMALE	DECEASED	4.2	Recurred/Progressed 	3	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0344	TCGA-08-0344	66.4	MALE	DECEASED	115.9	Recurred/Progressed 	61.8	Nonstandard Radiation, Alkylating Chemo	G-CIMP	NA	NA	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-08-0345	TCGA-08-0345	71.1	FEMALE	DECEASED	1.7	DiseaseFree	1.7	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-08-0346	TCGA-08-0346	69.6	MALE	DECEASED	8.4	Recurred/Progressed 	2.5	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-08-0347	TCGA-08-0347	50.3	MALE	DECEASED	25.7	Recurred/Progressed 	1.9	Standard Radiation, Alkylating Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0348	TCGA-08-0348	64	MALE	DECEASED	12.2	Recurred/Progressed 	6.5	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0349	TCGA-08-0349	46.4	MALE	DECEASED	9.8	Recurred/Progressed 	3	TMZ Chemoradiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0350	TCGA-08-0350	32.6	MALE	DECEASED	29.2	Recurred/Progressed 	14.4	Standard Radiation, TMZ Chemo	G-CIMP	NA	NA	G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0351	TCGA-08-0351	40.6	MALE	DECEASED	65.3	Recurred/Progressed 	50.7	Standard Radiation, TMZ Chemo	G-CIMP	NA	NA	G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0352	TCGA-08-0352	79.7	MALE	DECEASED	1.3	DiseaseFree	1.3	Unspecified Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-08-0353	TCGA-08-0353	58.4	MALE	DECEASED	8.4	Recurred/Progressed 	5.4	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	NA	WT	GBM	Chemo/Radio
+TCGA-08-0354	TCGA-08-0354	52.6	FEMALE	DECEASED	18	Recurred/Progressed 	8.3	Standard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0355	TCGA-08-0355	30.4	FEMALE	DECEASED	24.6	Recurred/Progressed 	17.1	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	NA	WT	GBM	Chemo/Radio
+TCGA-08-0356	TCGA-08-0356	60	FEMALE	DECEASED	31.1	Recurred/Progressed 	14.7	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0357	TCGA-08-0357	49.7	MALE	DECEASED	37.6	Recurred/Progressed 	5.1	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0358	TCGA-08-0358	50.3	MALE	DECEASED	22.3	Recurred/Progressed 	8.6	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0359	TCGA-08-0359	59.5	FEMALE	DECEASED	3.4	DiseaseFree	3.4	Nonstandard Radiation	Proneural	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-08-0360	TCGA-08-0360	76.4	MALE	DECEASED	15.4	Recurred/Progressed 	3.7	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-08-0373	TCGA-08-0373	69.2	MALE	DECEASED	4.4	DiseaseFree	4.4	Unspecified Therapy	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	NA
+TCGA-08-0375	TCGA-08-0375	51.9	FEMALE	DECEASED	12.2	Recurred/Progressed 	5.3	Standard Radiation	Classical	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-08-0380	TCGA-08-0380	74.7	FEMALE	DECEASED	14.9	Recurred/Progressed 	5	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0385	TCGA-08-0385	71.8	MALE	DECEASED	2.7	DiseaseFree	2.7	Unspecified Therapy	Proneural	NA	NA	NA	WT	GBM	NA
+TCGA-08-0386	TCGA-08-0386	74.1	MALE	DECEASED	18	Recurred/Progressed 	14	TMZ Chemoradiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0389	TCGA-08-0389	59.2	MALE	DECEASED	15.4	DiseaseFree	15.4	Nonstandard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-08-0390	TCGA-08-0390	69.3	MALE	DECEASED	14	DiseaseFree	14	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	NA	WT	GBM	Chemo/Radio
+TCGA-08-0392	TCGA-08-0392	60.4	MALE	DECEASED	0.7	DiseaseFree	0.7	Unspecified Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-08-0509	TCGA-08-0509	63.7	MALE	DECEASED	12.6	DiseaseFree	12.6	Unspecified Therapy	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	NA
+TCGA-08-0510	TCGA-08-0510	75.8	MALE	DECEASED	4.2	Recurred/Progressed 	2.9	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0511	TCGA-08-0511	69.3	MALE	DECEASED	7.7	DiseaseFree	7.7	Nonstandard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0512	TCGA-08-0512	48.8	MALE	DECEASED	42.2	Recurred/Progressed 	7.6	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-08-0514	TCGA-08-0514	69.7	FEMALE	DECEASED	11.1	DiseaseFree	11.1	Standard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-08-0516	TCGA-08-0516	14.5	MALE	DECEASED	19.6	Recurred/Progressed 	1.3	Nonstandard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-08-0517	TCGA-08-0517	35	FEMALE	DECEASED	58.7	Recurred/Progressed 	33.7	Standard Radiation, Alkylating Chemo	G-CIMP	NA	NA	G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0518	TCGA-08-0518	60.2	FEMALE	DECEASED	19.3	Recurred/Progressed 	4.4	Standard Radiation	Classical	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-08-0520	TCGA-08-0520	70.5	MALE	DECEASED	10.7	Recurred/Progressed 	3.5	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0521	TCGA-08-0521	17.5	MALE	DECEASED	4.8	Recurred/Progressed 	4.1	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0522	TCGA-08-0522	61.4	MALE	DECEASED	20.9	Recurred/Progressed 	8.7	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0524	TCGA-08-0524	17.7	FEMALE	DECEASED	7.2	Recurred/Progressed 	2	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0525	TCGA-08-0525	52	MALE	DECEASED	16	Recurred/Progressed 	11.3	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0529	TCGA-08-0529	56.3	FEMALE	DECEASED	18.4	Recurred/Progressed 	10.8	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-08-0531	TCGA-08-0531	64.3	MALE	DECEASED	7.6	DiseaseFree	7.6	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-0615	TCGA-12-0615	78.3	FEMALE	DECEASED	15.3	Recurred/Progressed 	5.2	Nonstandard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0616	TCGA-12-0616	36.8	FEMALE	DECEASED	14.7	Recurred/Progressed 	13.1	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0618	TCGA-12-0618	49.5	MALE	DECEASED	13	DiseaseFree	13	TMZ Chemoradiation, TMZ Chemo	Proneural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0619	TCGA-12-0619	60	MALE	DECEASED	34.9	Recurred/Progressed 	6.7	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0620	TCGA-12-0620	57.7	MALE	DECEASED	10.5	DiseaseFree	10.5	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0654	TCGA-12-0654	48.2	FEMALE	DECEASED	7.6	Recurred/Progressed 	7.1	Standard Radiation	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Radio
+TCGA-12-0656	TCGA-12-0656	48.9	FEMALE	DECEASED	94.8	Recurred/Progressed 	48.2	Standard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0657	TCGA-12-0657	69.6	MALE	DECEASED	0.1	DiseaseFree	0.1	Unspecified Radiation	Classical	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-12-0662	TCGA-12-0662	51.2	MALE	DECEASED	38.2	Recurred/Progressed 	19.7	Standard Radiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0670	TCGA-12-0670	60.8	MALE	DECEASED	26	Recurred/Progressed 	12.5	Standard Radiation, TMZ Chemo	Neural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0688	TCGA-12-0688	74.2	MALE	DECEASED	26.7	Recurred/Progressed 	7.5	Standard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0691	TCGA-12-0691	63	MALE	DECEASED	12.1	Recurred/Progressed 	3.2	Standard Radiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0692	TCGA-12-0692	75.3	FEMALE	DECEASED	3.7	Recurred/Progressed 	1.2	TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo
+TCGA-12-0703	TCGA-12-0703	46.9	MALE	DECEASED	20.4	Recurred/Progressed 	6.8	Standard Radiation, Alkylating Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-0707	TCGA-12-0707	55.1	MALE	DECEASED	28.4	DiseaseFree	28.4	Unspecified Therapy	Neural	NA	NA	non-G-CIMP	WT	GBM	NA
+TCGA-12-0769	TCGA-12-0769	52.5	MALE	DECEASED	15.1	Recurred/Progressed 	12.4	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-0772	TCGA-12-0772	46.6	MALE	DECEASED	53.9	Recurred/Progressed 	20	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-0773	TCGA-12-0773	24.2	MALE	DECEASED	43.2	Recurred/Progressed 	23.8	Standard Radiation, TMZ Chemo	Neural	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0775	TCGA-12-0775	75.5	FEMALE	DECEASED	7.6	Recurred/Progressed 	3.1	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0776	TCGA-12-0776	52.6	MALE	DECEASED	9.7	Recurred/Progressed 	4.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-0778	TCGA-12-0778	53.3	MALE	DECEASED	14.9	Recurred/Progressed 	7.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0780	TCGA-12-0780	51	FEMALE	DECEASED	14.9	Recurred/Progressed 	3	TMZ Chemoradiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-0818	TCGA-12-0818	45.6	FEMALE	DECEASED	91.7	DiseaseFree	91.7	Alkylating Chemoradiation, Alkylating Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132C	GBM	Chemo/Radio
+TCGA-12-0819	TCGA-12-0819	49.7	FEMALE	DECEASED	24.8	Recurred/Progressed 	14	Standard Radiation, Alkylating Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0820	TCGA-12-0820	40.7	MALE	DECEASED	18.5	Recurred/Progressed 	8.9	Standard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0821	TCGA-12-0821	62.8	MALE	DECEASED	10.6	Recurred/Progressed 	8.5	Standard Radiation, Alkylating Chemo	Neural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0822	TCGA-12-0822	46	MALE	DECEASED	23.5	Recurred/Progressed 	3	Standard Radiation, TMZ Chemo	Neural	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0826	TCGA-12-0826	38	MALE	DECEASED	27.8	DiseaseFree	27.8	Unspecified Therapy	Neural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	NA
+TCGA-12-0827	TCGA-12-0827	38.6	FEMALE	DECEASED	38.8	DiseaseFree	38.8	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-12-0828	TCGA-12-0828	57.2	MALE	DECEASED	8.9	Recurred/Progressed 	0.4	Standard Radiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-0829	TCGA-12-0829	75.2	MALE	DECEASED	20.6	Recurred/Progressed 	15.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1088	TCGA-12-1088	53.9	FEMALE	DECEASED	127.6	DiseaseFree	127.6	Standard Radiation, Alkylating Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1089	TCGA-12-1089	64.1	MALE	DECEASED	5.8	DiseaseFree	5.8	Standard Radiation, Alkylating Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1090	TCGA-12-1090	58.5	MALE	DECEASED	7.6	DiseaseFree	7.6	Standard Radiation, Alkylating Chemo	Mesenchymal	METHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1091	TCGA-12-1091	10.9	FEMALE	DECEASED	33.2	Recurred/Progressed 	1.8	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1092	TCGA-12-1092	58.6	MALE	DECEASED	21.7	Recurred/Progressed 	20.9	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1093	TCGA-12-1093	66.5	FEMALE	DECEASED	16	Recurred/Progressed 	10.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1094	TCGA-12-1094	56.4	MALE	DECEASED	12.2	Recurred/Progressed 	6.1	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1095	TCGA-12-1095	65.1	FEMALE	DECEASED	15.9	Recurred/Progressed 	3.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1096	TCGA-12-1096	55.6	MALE	DECEASED	9.1	Recurred/Progressed 	8.9	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1097	TCGA-12-1097	61.7	MALE	DECEASED	14.5	Recurred/Progressed 	5.5	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1098	TCGA-12-1098	75.9	FEMALE	DECEASED	4	Recurred/Progressed 	3.1	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1099	TCGA-12-1099	68.5	FEMALE	DECEASED	4.1	Recurred/Progressed 	2	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-12-1597	TCGA-12-1597	62.6	FEMALE	DECEASED	22.2	Recurred/Progressed 	5.9	Standard Radiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1598	TCGA-12-1598	75.9	FEMALE	DECEASED	15.7	DiseaseFree	15.7	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1599	TCGA-12-1599	47.7	FEMALE	DECEASED	25.7	Recurred/Progressed 	2.9	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1600	TCGA-12-1600	86	MALE	DECEASED	14.7	Recurred/Progressed 	13.3	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-1602	TCGA-12-1602	58.8	MALE	DECEASED	6.7	Recurred/Progressed 	4.6	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3644	TCGA-12-3644	47.8	FEMALE	DECEASED	59.8	Recurred/Progressed 	37.6	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3646	TCGA-12-3646	59.8	FEMALE	DECEASED	44	Recurred/Progressed 	43.2	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3648	TCGA-12-3648	61.5	FEMALE	DECEASED	26.9	Recurred/Progressed 	2.8	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3649	TCGA-12-3649	76.2	MALE	DECEASED	15.2	Recurred/Progressed 	11.5	TMZ Chemo	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo
+TCGA-12-3650	TCGA-12-3650	46.9	MALE	DECEASED	11	Recurred/Progressed 	7.9	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3651	TCGA-12-3651	77.4	MALE	DECEASED	12.7	Recurred/Progressed 	11.8	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3652	TCGA-12-3652	60	MALE	DECEASED	34.9	Recurred/Progressed 	6.7	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-3653	TCGA-12-3653	34.3	FEMALE	DECEASED	14.5	Recurred/Progressed 	7.3	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-5295	TCGA-12-5295	60.7	FEMALE	DECEASED	14.9	Recurred/Progressed 	13.1	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-5299	TCGA-12-5299	56	FEMALE	DECEASED	3.2	DiseaseFree	3.2	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-12-5301	TCGA-12-5301	59.6	MALE	DECEASED	2	DiseaseFree	2	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-0736	TCGA-14-0736	49.9	MALE	DECEASED	15.1	Recurred/Progressed 	4.2	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-0740	TCGA-14-0740	70.2	MALE	DECEASED	12	DiseaseFree	12	Standard Radiation	NA	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-14-0781	TCGA-14-0781	49	MALE	DECEASED	1	DiseaseFree	1	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-14-0783	TCGA-14-0783	36	FEMALE	DECEASED	6.2	DiseaseFree	6.2	Alkylating Chemoradiation, Alkylating Chemo	Mesenchymal	METHYLATED	CL_4	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-0786	TCGA-14-0786	50.9	FEMALE	DECEASED	23.1	Recurred/Progressed 	4.2	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-0787	TCGA-14-0787	69.3	MALE	DECEASED	2.2	DiseaseFree	2.2	Unspecified Radiation	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-14-0789	TCGA-14-0789	54.9	MALE	DECEASED	11.2	Recurred/Progressed 	3.5	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-0790	TCGA-14-0790	64.8	FEMALE	DECEASED	13.7	DiseaseFree	13.7	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-0812	TCGA-14-0812	65.9	MALE	DECEASED	3.3	DiseaseFree	3.3	Alkylating Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo
+TCGA-14-0813	TCGA-14-0813	78.2	MALE	DECEASED	1.3	DiseaseFree	1.3	Unspecified Radiation	Proneural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-14-0817	TCGA-14-0817	69.6	FEMALE	DECEASED	5.4	DiseaseFree	5.4	Unspecified Radiation	Neural	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-14-0865	TCGA-14-0865	67.9	MALE	DECEASED	16.5	Recurred/Progressed 	7.1	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-0866	TCGA-14-0866	55.2	MALE	DECEASED	26.3	Recurred/Progressed 	3.2	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-0867	TCGA-14-0867	67.9	MALE	DECEASED	2	DiseaseFree	2	Unspecified Radiation	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-14-0871	TCGA-14-0871	75	FEMALE	DECEASED	28.9	DiseaseFree	28.9	Standard Radiation	Mesenchymal	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-14-1034	TCGA-14-1034	60.3	FEMALE	DECEASED	15.9	Recurred/Progressed 	9	Standard Radiation, Alkylating Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-1037	TCGA-14-1037	66.9	FEMALE	DECEASED	19.3	Recurred/Progressed 	10.7	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-1043	TCGA-14-1043	61.3	MALE	DECEASED	0.8	DiseaseFree	0.8	Nonstandard Radiation	NA	NA	NA	non-G-CIMP	WT	GBM	Radio
+TCGA-14-1395	TCGA-14-1395	52.7	MALE	DECEASED	1.4	DiseaseFree	1.4	Alkylating Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo
+TCGA-14-1396	TCGA-14-1396	78.7	FEMALE	DECEASED	1.1	DiseaseFree	1.1	Unspecified Radiation	Mesenchymal	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-14-1401	TCGA-14-1401	54.5	MALE	DECEASED	3.7	DiseaseFree	3.7	Unspecified Radiation	Proneural	METHYLATED	CL_1	non-G-CIMP	NA	GBM	Radio
+TCGA-14-1402	TCGA-14-1402	58.6	FEMALE	DECEASED	32	Recurred/Progressed 	11	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-1450	TCGA-14-1450	57.4	MALE	LIVING	58.8	Recurred/Progressed 	27.2	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-1451	TCGA-14-1451	39.4	MALE	DECEASED	23.1	Recurred/Progressed 	0.6	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-1452	TCGA-14-1452	60.5	MALE	DECEASED	7.1	Recurred/Progressed 	5.7	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-1453	TCGA-14-1453	69.3	MALE	DECEASED	1.2	DiseaseFree	1.2	Unspecified Radiation	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-14-1454	TCGA-14-1454	54.5	FEMALE	DECEASED	30.2	Recurred/Progressed 	9.5	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-1455	TCGA-14-1455	61.8	MALE	DECEASED	0.9	DiseaseFree	0.9	Alkylating Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo
+TCGA-14-1456	TCGA-14-1456	23.9	MALE	LIVING	40.9	Recurred/Progressed 	3.2	Standard Radiation	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Radio
+TCGA-14-1458	TCGA-14-1458	54.5	MALE	DECEASED	6.6	Recurred/Progressed 	2.6	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-14-1459	TCGA-14-1459	63.6	FEMALE	DECEASED	12.4	Recurred/Progressed 	9	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-1794	TCGA-14-1794	59.2	MALE	DECEASED	1	DiseaseFree	1	Nonstandard Radiation	Proneural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-14-1795	TCGA-14-1795	66.7	MALE	DECEASED	1.9	DiseaseFree	1.9	Alkylating Chemo	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo
+TCGA-14-1821	TCGA-14-1821	31	MALE	DECEASED	17.8	Recurred/Progressed 	10.9	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-14-1823	TCGA-14-1823	58.5	FEMALE	DECEASED	17.8	Recurred/Progressed 	4.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-1824	TCGA-14-1824	67.2	FEMALE	DECEASED	19.6	DiseaseFree	19.6	Standard Radiation	NA	NA	NA	NA	NA	GBM	Radio
+TCGA-14-1825	TCGA-14-1825	70.3	MALE	DECEASED	7.6	Recurred/Progressed 	3	Standard Radiation	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-14-1827	TCGA-14-1827	51.5	MALE	DECEASED	5.9	DiseaseFree	5.9	Alkylating Chemo	Neural	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo
+TCGA-14-1829	TCGA-14-1829	57.3	MALE	LIVING	7.1	DiseaseFree	7.1	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-2554	TCGA-14-2554	52.3	FEMALE	DECEASED	17.5	DiseaseFree	17.5	Nonstandard Radiation	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-14-2555	TCGA-14-2555	44.5	FEMALE	LIVING	8	DiseaseFree	8	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-14-3476	TCGA-14-3476	74.4	MALE	DECEASED	0.4	Recurred/Progressed 	0.3	Unspecified Radiation	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-14-3477	TCGA-14-3477	38.5	FEMALE	LIVING	3.7	DiseaseFree	3.7	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-14-4157	TCGA-14-4157	40.6	MALE	LIVING	3.4	Recurred/Progressed 	3.1	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-15-0742	TCGA-15-0742	65.8	MALE	DECEASED	13.7	Recurred/Progressed 	7.6	Nonstandard Radiation, TMZ Chemo	Classical	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-15-1444	TCGA-15-1444	NA	NA	NA	0	DiseaseFree	NA	Unspecified Radiation	Proneural	METHYLATED	CL_6	non-G-CIMP	R132G	GBM	Radio
+TCGA-15-1446	TCGA-15-1446	55.7	MALE	LIVING	19.1	Recurred/Progressed 	14.6	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-15-1447	TCGA-15-1447	36.5	FEMALE	LIVING	53.2	Recurred/Progressed 	11.2	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-15-1449	TCGA-15-1449	65.2	MALE	DECEASED	13.3	Recurred/Progressed 	2.4	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_1	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-16-0846	TCGA-16-0846	85.2	MALE	DECEASED	3.9	DiseaseFree	3.9	Unspecified Radiation	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-16-0848	TCGA-16-0848	57.1	MALE	DECEASED	17.6	Recurred/Progressed 	4.2	Standard Radiation	Proneural	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Radio
+TCGA-16-0849	TCGA-16-0849	54.6	MALE	LIVING	26.1	DiseaseFree	26.1	Standard Radiation	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Radio
+TCGA-16-0850	TCGA-16-0850	52.8	FEMALE	DECEASED	16.4	Recurred/Progressed 	2.7	Standard Radiation	G-CIMP	UNMETHYLATED	G-CIMP	G-CIMP	R132H	GBM	Radio
+TCGA-16-0861	TCGA-16-0861	65.1	MALE	NA	0	Recurred/Progressed 	3.1	Standard Radiation	Classical	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-16-1045	TCGA-16-1045	49.8	FEMALE	DECEASED	29	Recurred/Progressed 	21.5	Standard Radiation	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-16-1047	TCGA-16-1047	66.5	FEMALE	DECEASED	4.6	Recurred/Progressed 	0.8	Unspecified Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	NA	GBM	Radio
+TCGA-16-1055	TCGA-16-1055	48.8	MALE	DECEASED	10.3	Recurred/Progressed 	9.5	Standard Radiation	Classical	UNMETHYLATED	CL_2	non-G-CIMP	NA	GBM	Radio
+TCGA-16-1056	TCGA-16-1056	55.6	MALE	DECEASED	14	Recurred/Progressed 	7.9	Standard Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	NA	GBM	Radio
+TCGA-16-1060	TCGA-16-1060	70.7	FEMALE	DECEASED	9.1	Recurred/Progressed 	3.7	Nonstandard Radiation	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	NA	GBM	Radio
+TCGA-16-1062	TCGA-16-1062	57.9	FEMALE	DECEASED	21.2	Recurred/Progressed 	17	Standard Radiation	Classical	METHYLATED	CL_4	non-G-CIMP	NA	GBM	Radio
+TCGA-16-1063	TCGA-16-1063	72	MALE	DECEASED	14	Recurred/Progressed 	12.1	Standard Radiation	Neural	UNMETHYLATED	CL_3	non-G-CIMP	NA	GBM	Radio
+TCGA-16-1460	TCGA-16-1460	36.2	FEMALE	LIVING	6.4	DiseaseFree	6.4	Unspecified Radiation	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Radio
+TCGA-19-0955	TCGA-19-0955	71.1	MALE	LIVING	11.8	DiseaseFree	11.8	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-19-0957	TCGA-19-0957	48.5	FEMALE	DECEASED	21.9	Recurred/Progressed 	1.6	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-0960	TCGA-19-0960	83.1	FEMALE	LIVING	8.6	DiseaseFree	8.6	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-19-0962	TCGA-19-0962	77.7	FEMALE	DECEASED	0.7	DiseaseFree	0.7	Unspecified Radiation	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Radio
+TCGA-19-0963	TCGA-19-0963	61.1	MALE	DECEASED	14.3	Recurred/Progressed 	10.2	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-19-0964	TCGA-19-0964	70.6	MALE	LIVING	3.4	DiseaseFree	3.4	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-19-1385	TCGA-19-1385	69.7	MALE	DECEASED	10.8	Recurred/Progressed 	5.8	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1386	TCGA-19-1386	51.1	MALE	DECEASED	9.1	Recurred/Progressed 	7.8	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1387	TCGA-19-1387	81.8	MALE	LIVING	6	Recurred/Progressed 	2.6	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1388	TCGA-19-1388	58.5	MALE	DECEASED	13	Recurred/Progressed 	4.9	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1389	TCGA-19-1389	51.1	MALE	DECEASED	4.6	Recurred/Progressed 	2.7	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1390	TCGA-19-1390	63.1	FEMALE	DECEASED	25.4	DiseaseFree	25.4	Unspecified Radiation	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Radio
+TCGA-19-1392	TCGA-19-1392	72.8	FEMALE	DECEASED	3.7	DiseaseFree	3.7	Unspecified Radiation	Proneural	METHYLATED	CL_4	non-G-CIMP	NA	GBM	Radio
+TCGA-19-1786	TCGA-19-1786	64.5	FEMALE	LIVING	7.1	DiseaseFree	7.1	Standard Radiation	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-19-1787	TCGA-19-1787	49	MALE	DECEASED	12.7	Recurred/Progressed 	10.1	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_4	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-19-1788	TCGA-19-1788	39.1	MALE	DECEASED	3.7	DiseaseFree	3.7	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-19-1789	TCGA-19-1789	69.2	FEMALE	DECEASED	3.1	DiseaseFree	3.1	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1790	TCGA-19-1790	56.5	MALE	DECEASED	5	Recurred/Progressed 	2.9	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-1791	TCGA-19-1791	82.3	FEMALE	LIVING	0.1	DiseaseFree	0.1	Unspecified Radiation	Neural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-19-2619	TCGA-19-2619	55.2	FEMALE	LIVING	9.7	Recurred/Progressed 	4.8	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-2620	TCGA-19-2620	70.3	MALE	DECEASED	4.9	DiseaseFree	4.9	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-2621	TCGA-19-2621	83.3	MALE	DECEASED	1.1	DiseaseFree	1.1	Unspecified Radiation	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-19-2623	TCGA-19-2623	65.3	MALE	LIVING	7.5	DiseaseFree	7.5	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-2624	TCGA-19-2624	51.7	MALE	DECEASED	0.2	DiseaseFree	0.2	Unspecified Radiation	Proneural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-19-2625	TCGA-19-2625	76.5	FEMALE	DECEASED	4.1	DiseaseFree	4.1	Unspecified Radiation	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-19-2629	TCGA-19-2629	60.9	MALE	DECEASED	24.2	Recurred/Progressed 	4.8	TMZ Chemoradiation, TMZ Chemo	G-CIMP	UNMETHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-19-2631	TCGA-19-2631	74.5	FEMALE	DECEASED	7	DiseaseFree	7	Standard Radiation	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-19-4068	TCGA-19-4068	68.3	FEMALE	LIVING	4.5	DiseaseFree	4.5	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-5947	TCGA-19-5947	47.1	FEMALE	DECEASED	6.3	Recurred/Progressed 	1.4	Nonstandard Radiation	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-19-5950	TCGA-19-5950	52.7	FEMALE	LIVING	11.3	Recurred/Progressed 	9.7	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-5951	TCGA-19-5951	76.7	MALE	DECEASED	8	DiseaseFree	8	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-5952	TCGA-19-5952	62.5	MALE	DECEASED	18.9	DiseaseFree	18.9	Nonstandard Radiation	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-19-5954	TCGA-19-5954	72.2	FEMALE	LIVING	8	DiseaseFree	8	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-5955	TCGA-19-5955	83.6	MALE	DECEASED	1.8	DiseaseFree	1.8	Unspecified Radiation	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-19-5956	TCGA-19-5956	53.6	FEMALE	LIVING	6.5	DiseaseFree	6.5	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-19-5958	TCGA-19-5958	56	MALE	LIVING	5.4	DiseaseFree	5.4	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-5959	TCGA-19-5959	77.9	FEMALE	LIVING	5.3	Recurred/Progressed 	3.9	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-19-5960	TCGA-19-5960	56.5	MALE	LIVING	5.4	DiseaseFree	5.4	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-26-1438	TCGA-26-1438	36.9	MALE	LIVING	10	Recurred/Progressed 	5.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-26-1439	TCGA-26-1439	63.8	MALE	DECEASED	13.9	Recurred/Progressed 	9.3	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-26-1440	TCGA-26-1440	48.4	MALE	LIVING	9.7	Recurred/Progressed 	7.7	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-26-1442	TCGA-26-1442	43.7	MALE	LIVING	31.3	DiseaseFree	31.3	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-26-1443	TCGA-26-1443	60.2	FEMALE	LIVING	7.1	Recurred/Progressed 	7.1	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-26-1799	TCGA-26-1799	68.9	MALE	DECEASED	9.4	Recurred/Progressed 	7	Standard Radiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-26-5132	TCGA-26-5132	74.5	MALE	LIVING	9.4	DiseaseFree	9.4	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-26-5133	TCGA-26-5133	59	MALE	LIVING	14.9	Recurred/Progressed 	12.2	TMZ Chemoradiation, TMZ Chemo	G-CIMP	UNMETHYLATED	G-CIMP	G-CIMP	WT	GBM	Chemo/Radio
+TCGA-26-5134	TCGA-26-5134	74.2	MALE	LIVING	5.5	DiseaseFree	5.5	Standard Radiation	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-26-5135	TCGA-26-5135	72.5	FEMALE	DECEASED	8.8	DiseaseFree	8.8	Unspecified Radiation	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Radio
+TCGA-26-5136	TCGA-26-5136	78	FEMALE	LIVING	1.2	DiseaseFree	1.2	Unspecified Radiation	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-26-5139	TCGA-26-5139	65.1	FEMALE	LIVING	1.6	DiseaseFree	1.6	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-26-6173	TCGA-26-6173	57.8	MALE	LIVING	7.9	DiseaseFree	7.9	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-26-6174	TCGA-26-6174	65.4	MALE	LIVING	2.3	DiseaseFree	2.3	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1830	TCGA-27-1830	57.9	MALE	DECEASED	5.1	Recurred/Progressed 	4.1	Standard Radiation, TMZ Chemo	Proneural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1831	TCGA-27-1831	66.9	MALE	DECEASED	16.6	Recurred/Progressed 	4.7	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1832	TCGA-27-1832	59.4	FEMALE	DECEASED	9.9	Recurred/Progressed 	6	Nonstandard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1833	TCGA-27-1833	67.3	FEMALE	DECEASED	24.2	Recurred/Progressed 	15.4	Standard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1834	TCGA-27-1834	56.3	MALE	DECEASED	40.5	Recurred/Progressed 	11	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1835	TCGA-27-1835	53.2	FEMALE	DECEASED	21.3	Recurred/Progressed 	5.2	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1836	TCGA-27-1836	33	FEMALE	DECEASED	30.1	Recurred/Progressed 	5.7	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1837	TCGA-27-1837	36.6	MALE	DECEASED	14	Recurred/Progressed 	4.4	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-1838	TCGA-27-1838	59.4	FEMALE	DECEASED	11.5	Recurred/Progressed 	3.9	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-2518	TCGA-27-2518	52.4	MALE	DECEASED	24.7	Recurred/Progressed 	17.7	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-2519	TCGA-27-2519	48.5	MALE	LIVING	10.4	Recurred/Progressed 	8.4	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-2521	TCGA-27-2521	34.7	MALE	LIVING	10.4	DiseaseFree	10.4	Standard Radiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-27-2523	TCGA-27-2523	63.1	MALE	DECEASED	16.1	Recurred/Progressed 	13.2	Standard Radiation, TMZ Chemo	Classical	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-2524	TCGA-27-2524	56.3	MALE	DECEASED	7.6	DiseaseFree	7.6	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-27-2526	TCGA-27-2526	79.3	FEMALE	DECEASED	2.9	DiseaseFree	2.9	Unspecified Radiation	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-27-2527	TCGA-27-2527	81.1	MALE	DECEASED	14.4	DiseaseFree	14.4	Nonstandard Radiation	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-27-2528	TCGA-27-2528	62.6	MALE	DECEASED	15.8	Recurred/Progressed 	2.3	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1745	TCGA-28-1745	76.2	MALE	LIVING	11.3	Recurred/Progressed 	10.4	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1746	TCGA-28-1746	77.5	FEMALE	LIVING	0.2	DiseaseFree	0.2	Unspecified Radiation	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-28-1747	TCGA-28-1747	44.6	MALE	DECEASED	2.5	DiseaseFree	2.5	Nonstandard Radiation, TMZ Chemo	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1749	TCGA-28-1749	73.3	MALE	LIVING	9.2	Recurred/Progressed 	9.2	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1750	TCGA-28-1750	40.6	FEMALE	LIVING	8.3	Recurred/Progressed 	3.8	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1751	TCGA-28-1751	61	FEMALE	LIVING	7.6	Recurred/Progressed 	7.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1752	TCGA-28-1752	42.6	FEMALE	LIVING	8.5	DiseaseFree	8.5	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1753	TCGA-28-1753	53	MALE	LIVING	1.2	DiseaseFree	1.2	Nonstandard Radiation	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-28-1755	TCGA-28-1755	52.7	FEMALE	DECEASED	1.5	DiseaseFree	1.5	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-1756	TCGA-28-1756	78.4	MALE	LIVING	2.8	DiseaseFree	2.8	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	NA	GBM	Chemo/Radio
+TCGA-28-1757	TCGA-28-1757	71.7	MALE	LIVING	0.1	DiseaseFree	0.1	Unspecified Therapy	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	NA
+TCGA-28-1760	TCGA-28-1760	48.6	MALE	LIVING	4.7	Recurred/Progressed 	3.5	Standard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-2499	TCGA-28-2499	59.8	MALE	LIVING	14.5	DiseaseFree	14.5	Unspecified Therapy	NA	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	NA
+TCGA-28-2502	TCGA-28-2502	65.2	MALE	LIVING	0.7	DiseaseFree	0.7	Nonstandard Radiation	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-28-2506	TCGA-28-2506	63.8	FEMALE	LIVING	6.7	Recurred/Progressed 	2.8	TMZ Chemoradiation, TMZ Chemo	Neural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-2509	TCGA-28-2509	77.3	FEMALE	LIVING	4.8	DiseaseFree	4.8	Standard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-2513	TCGA-28-2513	69.6	FEMALE	LIVING	7.3	Recurred/Progressed 	2.5	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-2514	TCGA-28-2514	45.8	MALE	LIVING	5.3	DiseaseFree	5.3	Standard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5204	TCGA-28-5204	72.5	MALE	DECEASED	14.9	DiseaseFree	14.9	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5207	TCGA-28-5207	71.1	MALE	DECEASED	11.3	DiseaseFree	11.3	Nonstandard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5208	TCGA-28-5208	52.2	MALE	LIVING	15.6	Recurred/Progressed 	4.8	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5209	TCGA-28-5209	66.7	FEMALE	LIVING	2.5	DiseaseFree	2.5	Nonstandard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5211	TCGA-28-5211	42.5	MALE	LIVING	11.8	Recurred/Progressed 	7.4	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5213	TCGA-28-5213	72.5	MALE	LIVING	9.8	DiseaseFree	9.8	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5214	TCGA-28-5214	53.4	MALE	LIVING	14.2	Recurred/Progressed 	8.1	Nonstandard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5215	TCGA-28-5215	62.1	FEMALE	DECEASED	11	Recurred/Progressed 	5.4	Nonstandard Radiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5216	TCGA-28-5216	52.7	MALE	LIVING	13.6	DiseaseFree	13.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5218	TCGA-28-5218	63.2	MALE	DECEASED	5.2	DiseaseFree	5.2	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5219	TCGA-28-5219	47.2	FEMALE	LIVING	8.5	Recurred/Progressed 	8.5	Nonstandard Radiation, TMZ Chemo	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-5220	TCGA-28-5220	67.4	MALE	LIVING	10.5	Recurred/Progressed 	8.6	Standard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-28-6450	TCGA-28-6450	60.7	MALE	DECEASED	5.4	DiseaseFree	5.4	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-1970	TCGA-32-1970	59.2	MALE	DECEASED	15.4	Recurred/Progressed 	13.4	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-1973	TCGA-32-1973	21.2	MALE	DECEASED	21.1	Recurred/Progressed 	16.7	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_6	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-32-1976	TCGA-32-1976	65.2	MALE	DECEASED	0.5	DiseaseFree	0.5	Unspecified Radiation	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-32-1977	TCGA-32-1977	63.5	FEMALE	LIVING	0.1	DiseaseFree	0.1	Unspecified Therapy	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	NA
+TCGA-32-1978	TCGA-32-1978	57.6	MALE	DECEASED	15.9	DiseaseFree	15.9	Unspecified Therapy	Classical	UNMETHYLATED	CL_4	non-G-CIMP	NA	GBM	NA
+TCGA-32-1979	TCGA-32-1979	69.1	FEMALE	DECEASED	19.5	Recurred/Progressed 	8.7	Unspecified Therapy	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	NA
+TCGA-32-1980	TCGA-32-1980	72.5	MALE	DECEASED	1.2	DiseaseFree	1.2	Unspecified Radiation	Neural	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Radio
+TCGA-32-1982	TCGA-32-1982	76	FEMALE	DECEASED	4.7	DiseaseFree	4.7	Alkylating Chemo	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo
+TCGA-32-1986	TCGA-32-1986	68.6	MALE	DECEASED	12.7	Recurred/Progressed 	7.7	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-1987	TCGA-32-1987	49.5	FEMALE	DECEASED	14.8	Recurred/Progressed 	2.2	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-32-1991	TCGA-32-1991	60.3	MALE	DECEASED	16.9	Recurred/Progressed 	11.3	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-2491	TCGA-32-2491	63.3	MALE	DECEASED	12.2	Recurred/Progressed 	2.3	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-2494	TCGA-32-2494	58	FEMALE	DECEASED	20.8	Recurred/Progressed 	16	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-2495	TCGA-32-2495	59.9	FEMALE	DECEASED	15	Recurred/Progressed 	8.3	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-2615	TCGA-32-2615	62.7	MALE	DECEASED	15.9	Recurred/Progressed 	4.3	Nonstandard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-2616	TCGA-32-2616	48.7	FEMALE	DECEASED	7.3	Recurred/Progressed 	6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	NA	GBM	Chemo/Radio
+TCGA-32-2632	TCGA-32-2632	80.2	MALE	DECEASED	8.8	DiseaseFree	8.8	Unspecified Therapy	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	NA
+TCGA-32-2634	TCGA-32-2634	82	MALE	LIVING	8.9	DiseaseFree	8.9	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-2638	TCGA-32-2638	67.5	MALE	LIVING	7.4	DiseaseFree	7.4	TMZ Chemoradiation, TMZ Chemo	Classical	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-4208	TCGA-32-4208	25.2	MALE	LIVING	13.2	DiseaseFree	13.2	TMZ Chemoradiation, TMZ Chemo	G-CIMP	METHYLATED	G-CIMP	G-CIMP	R132H	GBM	Chemo/Radio
+TCGA-32-4209	TCGA-32-4209	40.8	MALE	LIVING	11.1	Recurred/Progressed 	3.1	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-4210	TCGA-32-4210	73.3	MALE	DECEASED	3.7	DiseaseFree	3.7	Unspecified Therapy	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	NA
+TCGA-32-4211	TCGA-32-4211	56.8	MALE	DECEASED	12.6	DiseaseFree	12.6	TMZ Chemoradiation, TMZ Chemo	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-4213	TCGA-32-4213	47.2	FEMALE	LIVING	11.7	Recurred/Progressed 	11.6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-4719	TCGA-32-4719	73.1	MALE	DECEASED	10.9	DiseaseFree	10.9	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-32-5222	TCGA-32-5222	66.1	MALE	LIVING	5.4	Recurred/Progressed 	3.9	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-41-2571	TCGA-41-2571	89.3	MALE	DECEASED	0.9	Recurred/Progressed 	0.9	TMZ Chemo	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo
+TCGA-41-2572	TCGA-41-2572	67.1	MALE	DECEASED	13.4	Recurred/Progressed 	4	TMZ Chemoradiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-41-2573	TCGA-41-2573	60	MALE	LIVING	8.9	Recurred/Progressed 	5.5	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-41-2575	TCGA-41-2575	75.5	MALE	DECEASED	9.5	Recurred/Progressed 	4.3	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-41-3392	TCGA-41-3392	88.6	MALE	DECEASED	1	DiseaseFree	1	Unspecified Radiation	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Radio
+TCGA-41-3393	TCGA-41-3393	81.9	FEMALE	DECEASED	4.4	DiseaseFree	4.4	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-41-3915	TCGA-41-3915	49	MALE	LIVING	6	DiseaseFree	6	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-41-4097	TCGA-41-4097	63.3	FEMALE	DECEASED	0.2	DiseaseFree	0.2	Unspecified Radiation	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-41-5651	TCGA-41-5651	59.4	FEMALE	LIVING	11.5	Recurred/Progressed 	6.9	TMZ Chemoradiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-74-6573	TCGA-74-6573	67.4	MALE	DECEASED	3.5	DiseaseFree	3.5	TMZ Chemoradiation, TMZ Chemo	NA	NA	NA	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-4925	TCGA-76-4925	76.7	MALE	DECEASED	4.8	Recurred/Progressed 	2.9	Nonstandard Radiation, TMZ Chemo	Proneural	METHYLATED	CL_4	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-4926	TCGA-76-4926	68.7	MALE	DECEASED	4.5	Recurred/Progressed 	1.1	Nonstandard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-4927	TCGA-76-4927	58	MALE	DECEASED	17.6	DiseaseFree	17.6	Unspecified Therapy	Neural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	NA
+TCGA-76-4928	TCGA-76-4928	85.6	FEMALE	DECEASED	3.1	DiseaseFree	3.1	Nonstandard Radiation, TMZ Chemo	Classical	METHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-4929	TCGA-76-4929	76.2	FEMALE	DECEASED	3.7	DiseaseFree	3.7	Unspecified Therapy	Neural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	NA
+TCGA-76-4931	TCGA-76-4931	70.7	FEMALE	DECEASED	9.1	Recurred/Progressed 	3.7	Nonstandard Radiation, TMZ Chemo	Classical	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-4932	TCGA-76-4932	50.5	FEMALE	DECEASED	47.9	DiseaseFree	47.9	Standard Radiation, TMZ Chemo	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-4934	TCGA-76-4934	66.6	FEMALE	DECEASED	2.5	DiseaseFree	2.5	Unspecified Therapy	Proneural	METHYLATED	CL_6	non-G-CIMP	WT	GBM	NA
+TCGA-76-4935	TCGA-76-4935	52.6	FEMALE	LIVING	10.8	Recurred/Progressed 	10.8	Standard Radiation, TMZ Chemo	Proneural	METHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-6191	TCGA-76-6191	57.3	MALE	DECEASED	16.7	Recurred/Progressed 	10.6	TMZ Chemoradiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_3	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-6192	TCGA-76-6192	74.8	MALE	DECEASED	3.3	Recurred/Progressed 	2.5	Standard Radiation, TMZ Chemo	Proneural	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-6193	TCGA-76-6193	78.7	MALE	DECEASED	2.7	Recurred/Progressed 	2.1	Standard Radiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-6282	TCGA-76-6282	63.9	MALE	DECEASED	17.1	Recurred/Progressed 	15.1	TMZ Chemoradiation, TMZ Chemo	Mesenchymal	UNMETHYLATED	CL_1	non-G-CIMP	WT	GBM	Chemo/Radio
+TCGA-76-6285	TCGA-76-6285	64.8	FEMALE	DECEASED	8.3	DiseaseFree	8.3	TMZ Chemo	Proneural	UNMETHYLATED	CL_6	non-G-CIMP	WT	GBM	Chemo
+TCGA-81-5910	TCGA-81-5910	64.5	MALE	DECEASED	1.6	DiseaseFree	1.6	Unspecified Radiation	Classical	UNMETHYLATED	CL_2	non-G-CIMP	WT	GBM	Radio
+TCGA-87-5896	TCGA-87-5896	50.4	FEMALE	LIVING	0.1	DiseaseFree	0.1	Unspecified Therapy	Classical	UNMETHYLATED	CL_4	non-G-CIMP	WT	GBM	NA
+TCGA-06-1806	TCGA-06-1806-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-6693	TCGA-06-6693-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-6694	TCGA-06-6694-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-6697	TCGA-06-6697-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-6699	TCGA-06-6699-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-14-0862	TCGA-14-0862-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-19-5953	TCGA-19-5953-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-28-2501	TCGA-28-2501-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-41-6646	TCGA-41-6646-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-74-6575	TCGA-74-6575-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-74-6577	TCGA-74-6577-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-74-6578	TCGA-74-6578-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-74-6584	TCGA-74-6584-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6283	TCGA-76-6283-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6656	TCGA-76-6656-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6657	TCGA-76-6657-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6660	TCGA-76-6660-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6662	TCGA-76-6662-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6663	TCGA-76-6663-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6664	TCGA-76-6664-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0119	TCGA-06-0119-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0140	TCGA-06-0140-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0142	TCGA-06-0142-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0151	TCGA-06-0151-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0165	TCGA-06-0165-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0240	TCGA-06-0240-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-16-1048	TCGA-16-1048-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-19-4065	TCGA-19-4065-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-28-2510	TCGA-28-2510-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-32-2498	TCGA-32-2498-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6280	TCGA-76-6280-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6286	TCGA-76-6286-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-76-6661	TCGA-76-6661-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-81-5911	TCGA-81-5911-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0167	TCGA-06-0167-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-74-6581	TCGA-74-6581-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0121	TCGA-06-0121-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0150	TCGA-06-0150-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0159	TCGA-06-0159-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-06-0160	TCGA-06-0160-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-12-0653	TCGA-12-0653-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
+TCGA-12-1601	TCGA-12-1601-01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	GBM	NA
