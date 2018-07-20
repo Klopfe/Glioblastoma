@@ -436,7 +436,7 @@ colMeans(metagene[cell_line_classification==3,])
 
 
 
-#¨Preparing Overall Survival data
+#Â¨Preparing Overall Survival data
 
 
 
@@ -577,7 +577,7 @@ dss_t[sample]=12
 
 #DFS on molecular classification 
 
-#--- On enleve les patients pour lesquels la DFS est égale 0
+#--- On enleve les patients pour lesquels la DFS est Ã©gale 0
 
 delete=which(dss_t==0)
 
@@ -952,7 +952,7 @@ res_CD4=immune_cell_express(sig_CD4,2^Rembrandt_corrected,QN=FALSE)
 res_macro=immune_cell_express(sig_macro,2^Rembrandt_corrected,QN=FALSE)
 
 
-#calcul des quantités absolues 
+#calcul des quantitÃ©s absolues 
 
 res1_abs=sweep(res_lvl1[,1:4],1,res_lvl0[,2],"*")
 
